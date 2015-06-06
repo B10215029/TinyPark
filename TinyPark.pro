@@ -1,7 +1,7 @@
 #-------------------------------------------------
 #
 # Project created by QtCreator 2015-06-06T09:41:15
-#
+#                                     by b10215029
 #-------------------------------------------------
 
 QT       += core gui
@@ -21,7 +21,10 @@ SOURCES += main.cpp\
     shaderprogram.cpp \
     vec.cpp \
     mat.cpp \
-    displaywidget.cpp
+    displaywidget.cpp \
+    mesh.cpp \
+    texture.cpp \
+    particle.cpp
 
 HEADERS  += mainwindow.h \
     transform.h \
@@ -31,7 +34,10 @@ HEADERS  += mainwindow.h \
     shaderprogram.h \
     vec.h \
     mat.h \
-    displaywidget.h
+    displaywidget.h \
+    mesh.h \
+    texture.h \
+    particle.h
 
 FORMS    += mainwindow.ui
 
