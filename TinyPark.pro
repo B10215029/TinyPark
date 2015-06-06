@@ -13,8 +13,27 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    transform.cpp \
+    gameobject.cpp \
+    camera.cpp \
+    light.cpp \
+    shaderprogram.cpp \
+    vec.cpp \
+    mat.cpp \
+    displaywidget.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    transform.h \
+    gameobject.h \
+    camera.h \
+    light.h \
+    shaderprogram.h \
+    vec.h \
+    mat.h \
+    displaywidget.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    resources.qrc
