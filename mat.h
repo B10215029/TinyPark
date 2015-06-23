@@ -71,7 +71,7 @@ public:
 //	  operator=(m3x3);
 //	}
 
-	~mat4(){}
+//	~mat4(){}
 
 //	// Exchange the contents of this matrix with another.
 //	inline void swap(mat4& other)

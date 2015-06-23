@@ -1106,6 +1106,3 @@ inline vec4 operator - (const float lhs, const vec4& rhs)
 }
 
 #endif // VEC_H
-
-
-

@@ -24,7 +24,8 @@ SOURCES += main.cpp\
     displaywidget.cpp \
     mesh.cpp \
     texture.cpp \
-    particle.cpp
+    particle.cpp \
+    scene.cpp
 
 HEADERS  += mainwindow.h \
     transform.h \
@@ -37,7 +38,8 @@ HEADERS  += mainwindow.h \
     displaywidget.h \
     mesh.h \
     texture.h \
-    particle.h
+    particle.h \
+    scene.h
 
 FORMS    += mainwindow.ui
 
